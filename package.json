@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@notionhq/client": "^2.2.4"
+    "@notionhq/client": "^2.2.4",
+    "dayjs": "^1.11.7"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",

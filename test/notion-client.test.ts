@@ -1,7 +1,4 @@
-import notionClient from '../src/client';
-import { config as dotenvInitConfig } from 'dotenv';
 import createPage from '../src/create-page';
-import { NotionClientError } from "@notionhq/client";
 
 describe('notionClient 객체 테스트', () => {
 

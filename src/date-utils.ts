@@ -20,3 +20,6 @@ export const getDayTitle = (): string => {
   const day = dayConvertToKor(d.format('ddd'));
   return `${date} (${day})`;
 };
+
+export const getCreatedDate = () =>
+  dayjs().format('YYYY.MM.DD HH:mm:ss');

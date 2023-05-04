@@ -15,7 +15,7 @@ const dayConvertToKor = (d: string): string => {
 };
 
 export const getDayTitle = (): string => {
-  const d = dayjs();
+  const d = dayjs().locale('Asia/Seoul');
   const date: string = d.format('YYYY.MM.DD');
   const day = dayConvertToKor(d.format('ddd'));
   return `${date} (${day})`;
